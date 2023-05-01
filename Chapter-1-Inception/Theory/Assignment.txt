@@ -1,0 +1,39 @@
+Assignment - 1
+
+
+- What is Emmet?
+    Emmet is a plugin for your text editor or IDE. It gives shortend code and later expand to full code to reduce the time for developer. 
+    while building apps.
+
+- Difference between a library and a framework?
+    Both library and framework are pieces of code that helps to boost developer experience.
+    When we are using any Library we are in control like we can import what is necessary to us.
+    But in Framework we lose some control, we have to follow what the framework tells how to do certain things in a certain way.
+
+- What is CDN? Why do we use it?
+    CDN stands for Content Delivery Network. It is a shared network of server around the world. It is an intermediatery server between a web server and a client's browser. It sends static files like images, videos, JS files to the user from the nearest CDN server.
+    We use CDN because it is reliable, reduces bandwidth, improve websites perforamance and sos on.
+
+- Why is React known as React?
+    The name comes from the idea of building User Interfaces that react to changes in data. 
+    React uses something known as Virtual DOM it is a copy of an actual DOM and it updates the Real DOM efficently.
+
+- What is crossorigin attribute in Script tag?
+    We put crossorigin attribute to allow the script to access other domain. It can have a value of none, It is a security feature to stop Cross Site Scripting (XSS) attacks to minimize the script to access another domain content.
+
+
+- What is the difference between React and ReactDOM?
+    Both are separate libraries used to build React application. 
+    React is the core library to build User Interface in a declarative way. It uses Virtual DOM to update the Real DOM efficently.
+    While the ReactDOM provides an interface for rendering the components to the actual DOM.
+
+- What is the difference between react.development.js and react.production.js files via 
+    react.development.js is used in the development process helps the developer with warnings and instructions while build the apps. But, it can not we used in prodcution because it is not optimized so the bundlésize is large and it leads to performace issue.
+
+    On the other hand react.production.js is an optimized one iţs bundle size is low imporves performance on the production.
+
+- What is async and defer?
+    async and defer attributes are used in the script tag. 
+    async attr downloads the script asynchronously while the HTML file is parsing in the background. But when the script is downloaded it executes immediately.
+
+    defer attr downloads the script asynchronously while the HTML file is parsing in the background. It waits for HTML parsing to be finished then execute the downloaded file in an correct order.
